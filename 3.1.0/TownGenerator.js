@@ -1292,4 +1292,4 @@ const Execute = () => {
   Listener for button click
 */
 const GenerateButton = document.querySelector('#Generator');
-if (GenerateButton){generateButton.addEventListener('click', Execute);}
+if (GenerateButton){GenerateButton.addEventListener('click', Execute);}
